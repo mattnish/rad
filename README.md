@@ -34,6 +34,8 @@ WrapperOverrideCSS     //css to be applied after default css
 AbsoluterOverrideCSS   //css to be applied after default css
 WrapperAddClass         //class name to be added to default wrapper created
 AbsoluterAddClass         //class name to be added to default absoluter created
+
+A throttle on the resizing...
 ```
 
 EX USAGE:
