@@ -38,13 +38,17 @@ AbsoluterAddClass         //class name to be added to default absoluter created
 
 EX USAGE:
 ```javascript
-$('#google-ad2').rad();
+$(function(){
+  $('#google-ad2').rad();
+});
 ```
 EX USAGE WITH OPTIONS:
 ```javascript
-$('#google-ad2').rad({
+$(function(){
+  $('#google-ad2').rad({
     allowBiggerSizing:"true", //default false
     maxWidth:"300" //default null, must be in number of pixels
+  });
 });
 ```
 NOTE:
