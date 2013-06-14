@@ -2,8 +2,6 @@
 RAD: Responsive Ads (for Google Adsense)
 rad.js
 ===================================================================
-Copyright 2013 Matt Nish
--------------------------------------------------------------------
 
 BASIC INFO:
 This plugin is meant to add responsive sizing to Google Ads.
