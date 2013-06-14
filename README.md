@@ -19,6 +19,11 @@ You can style these individually for different layouts if need be.
 `.radAbsoluter` is meant to just ensure that the inner ad is taking
 up 100% of the inner space using position:absolute.
 
+QUICK DEMO:
+
+https://primary-colored.5apps.com/
+
+
 OPTIONS:
 ```
 allowBiggerSizing   // accepts true or false, whether or not to 
