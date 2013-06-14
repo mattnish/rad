@@ -1,6 +1,6 @@
 ===================================================================
-RAD: Responsive Ads (for Google Adsense)
-rad.js
+Rad: Responsive Ads (for Google Adsense) jQuery Plugin
+Rad.js
 ===================================================================
 
 BASIC INFO:
