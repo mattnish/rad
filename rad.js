@@ -1,13 +1,10 @@
 ;(function ( $, window, document, undefined ) {
-    
-    // Create the defaults once
     var pluginName = 'rad',
         defaults = {
             allowBiggerSizing: "false",
             maxWidth: null
         };
 
-    // The actual plugin constructor
     function Plugin( element, options ) {
         this.element = element;
 
@@ -39,10 +36,7 @@
         
         if(this.options.maxWidth){
             this.options.maxWidth = parseFloat(this.options.maxWidth);
-        }
-        // I tried to just use jquery to wrap the necessary containers around the ad, but it seems to break the ad from completely loading
-        //$elem.wrap('<div class="radWrapper" style="overflow:hidden;position:relative;width:'+this.adWidth+'px;height:'+this.adHeight+'px;max-width: 100%;"></div>').wrap('<div class="radAbsoluter" style="position:absolute;left:0;top:0;width:100%;height:100%;"></div>');
-        
+        }        
         $elem.css({
             '-webkit-transform-origin':'0 0',
             '-moz-transform-origin':'0 0',
