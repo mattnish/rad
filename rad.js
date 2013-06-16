@@ -24,8 +24,6 @@
     }
 
     Plugin.prototype.init = function () {
-
-        var self = this;
         
         this.id = this.element.id;
         var $elem = $(this.element);
