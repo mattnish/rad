@@ -13,11 +13,9 @@ This plugin works off the parent container of the ad div.
 This means that it'll work better within divs where the children 
 can comfortably expand 100% of the width.
 
-It wraps the ad div in 2 containers, `.radWrapper` & `.radAbsoluter`.
-You can style these individually for different layouts if need be.
-`.radWrapper` gets the new width/height as the screen resizes.
-`.radAbsoluter` is meant to just ensure that the inner ad is taking
-up 100% of the inner space using position:absolute.
+It wraps the ad div in 1 container, `.radWrapper`, which is used 
+to help retain a natural layout in the DOM.  You can style these 
+individually for different layouts if need be.
 
 QUICK DEMO:
 
@@ -36,9 +34,7 @@ maxWidth    // accepts a number of pixels, will set a maximum
 COMING SOON
 ```
 WrapperOverrideCSS     //css to be applied after default css
-AbsoluterOverrideCSS   //css to be applied after default css
 WrapperAddClass         //class name to be added to default wrapper created
-AbsoluterAddClass         //class name to be added to default absoluter created
 
 A throttle on the resizing...
 ```
