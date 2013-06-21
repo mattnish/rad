@@ -15,8 +15,10 @@ can comfortably expand 100% of the width.
 
 To use this, you need to wrap the ad div in a container, 
 `.radWrapper`, which is used to help retain a natural layout in 
-the DOM.  You can style this individually for different layouts 
-if need be too in your CSS.
+the DOM.  Unfortunately, iframes sometimes stop loading or break 
+if you try to wrap it using jQuery, so for now, we just have to 
+add the container beforehand.  You can style this individually 
+for different layouts if need be to in your CSS.
 
 QUICK DEMO:
 
