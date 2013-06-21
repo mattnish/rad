@@ -13,9 +13,10 @@ This plugin works off the parent container of the ad div.
 This means that it'll work better within divs where the children 
 can comfortably expand 100% of the width.
 
-It wraps the ad div in 1 container, `.radWrapper`, which is used 
-to help retain a natural layout in the DOM.  You can style these 
-individually for different layouts if need be.
+To use this, you need to wrap the ad div in a container, 
+`.radWrapper`, which is used to help retain a natural layout in 
+the DOM.  You can style this individually for different layouts 
+if need be too in your CSS.
 
 QUICK DEMO:
 
@@ -44,6 +45,7 @@ EX USAGE:
 $(function(){
   $('#google-ad2').rad();
 });
+
 ```
 EX USAGE WITH OPTIONS:
 ```javascript
@@ -54,10 +56,13 @@ $(function(){
   });
 });
 ```
+
 NOTE:
 The Adsense iframes don't like plugins that wrap the body tag.
 If your ads seem to be disappearing when used with rad.js, it may
 be because of another plugin affecting the entire body.
+
+** DON'T FORGET TO WRAP THE AD IN THE `.radWrapper` CONTAINER
 
 
 ===================================================================

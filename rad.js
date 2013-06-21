@@ -29,7 +29,7 @@
         var $elem = $(this.element);
         this.adWidth = $elem.width(); //save original width and height
         this.adHeight = $elem.height();
-        $elem.wrap('<div class="radWrapper" style="overflow:hidden;position:relative;width:'+this.adWidth+'px;height:'+this.adHeight+'px;max-width: 100%;"></div>');
+        $elem.closest('div[class^="radWrapper"]').css({position:'relative', width:this.adWidth+'px', height:this.adHeight+'px', maxWidth: '100%'});
         this.adParent = $elem.closest('div[class^="radWrapper"]').parent(); //save parent for updating container width value
         
         if(this.options.maxWidth){
