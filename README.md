@@ -68,7 +68,11 @@ $(function(){
 
 NOTES:
 
-I'm not sure if it is against AdSense policies, or not.
+I'm not sure if it is against AdSense policies, or not.  
+It seems like it okay based on this link below, but I'm 
+talking with people on the Google Adsense team to make sure
+this is either acceptable or a better solution is created.
+https://support.google.com/adsense/answer/1354736?hl=en
 
 The Adsense iframes don't like plugins that wrap the body tag.
 If your ads seem to be disappearing when used with rad.js, it may
