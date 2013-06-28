@@ -3,6 +3,8 @@ Rad: Responsive Ads jQuery Plugin (for Google Adsense)
 Rad.js
 ===================================================================
 
+NOTE: I'm not sure if it is against AdSense policies, or not.
+
 BASIC INFO:
 This plugin is meant to add responsive sizing to Google Ads.
 It uses CSS3 transforms to scale the ad up/down to the proper size,
