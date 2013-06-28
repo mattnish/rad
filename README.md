@@ -48,6 +48,9 @@ $(function(){
   $('#google-ad2').rad();
 });
 
+<div class="rapWrapper">
+  <!-- Your Ad Here -->
+</div>
 ```
 EX USAGE WITH OPTIONS:
 ```javascript
@@ -57,6 +60,10 @@ $(function(){
     maxWidth:"300" //default null, must be in number of pixels
   });
 });
+
+<div class="rapWrapper">
+  <!-- Your Ad Here -->
+</div>
 ```
 
 NOTE:
