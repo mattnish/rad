@@ -52,8 +52,8 @@
 	
     Plugin.prototype.destroy = function(){
         $(window).off( 'resize.rad.' + this.uid + 'orientationchange.rad.' + this.uid , self.__setScale );
-		this.adParent = null;
-		this.element = null;
+	this.adParent = null;
+	this.element = null;
     };
 
     //set new scale
