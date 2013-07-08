@@ -8,9 +8,9 @@
     function Plugin( element, options ) {
         this.element = element;
     	
-		Plugin._index = ( Plugin._index || 0 ) + 1;
+	Plugin._index = ( Plugin._index || 0 ) + 1;
 		
-		this.uid = Plugin._index;
+	this.uid = Plugin._index;
 
         this.options = $.extend( {}, defaults, options) ;
         
@@ -22,7 +22,7 @@
         self.init();
         self.setScale();
 
-		self.__setScale = $.proxy( self.setScale, self );
+	self.__setScale = $.proxy( self.setScale, self );
 
         $(window).on( 'resize.rad.' + this.uid + 'orientationchange.rad.' + this.uid , self.__setScale );
 
@@ -50,11 +50,11 @@
         });
     };
 	
-	Plugin.prototype.destroy = function(){
+    Plugin.prototype.destroy = function(){
         $(window).off( 'resize.rad.' + this.uid + 'orientationchange.rad.' + this.uid , self.__setScale );
 		this.adParent = null;
 		this.element = null;
-	};
+    };
 
     //set new scale
     Plugin.prototype.setScale = function(pWidth, adWidth){ 
