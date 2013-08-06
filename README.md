@@ -49,7 +49,7 @@ $(function(){
 });
 
 <div class="rapWrapper">
-  <!-- Your Ad Here -->
+  <!-- Your Ad Here With id="google-ad2" or whatever id you use -->
 </div>
 ```
 EX USAGE WITH OPTIONS:
