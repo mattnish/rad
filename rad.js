@@ -60,6 +60,7 @@
     Plugin.prototype.setScale = function(pWidth, adWidth){ 
         $elem = $(this.element);
         var pWidth = this.adParent.width();
+	pWidth -= parseInt(this.adParent.parent().css("marginLeft").replace("px",""))+parseInt(this.adParent.parent().css("marginRight").replace("px",""));
         //if maxWidth option set, check before rescaling
         if(this.options.maxWidth){
             if(pWidth > this.options.maxWidth){
