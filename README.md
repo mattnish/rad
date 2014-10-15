@@ -1,4 +1,6 @@
 ===================================================================
+This plugin is no longer maintained
+
 Rad: Responsive Ads jQuery Plugin (for Google Adsense)
 Rad.js
 ===================================================================
